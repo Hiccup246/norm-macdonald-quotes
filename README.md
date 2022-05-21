@@ -2,14 +2,19 @@
 A website to honour the late and great Norm Macdonald by spreading his words to the world
 
 ## TODO
-- Setup svelte kit project
-- ~~Figure out draft design in figma~~
-- Gather quotes into a json file
-- Implement design
+- Implement figma design
+- Gather a small selection of quotes into a json file
+- Implement new quote functionality
+- Gather a massive list of quotes into a json file
+- Deploy the project
+- Implement the whole "as mouse moves the squares behind the image move a bit
+- Gallery for headline font in different languages
+- Think about supporting different languages from within the application
 - Think about sms and email support
 - Thnk about external json api
-- Gallery for headline font in different languages
 - ~~Buy normmacdonaldquotes.com domain~~
+- ~~Setup svelte kit project~~
+- ~~Figure out draft design in figma~~
 
 # create-svelte
 
