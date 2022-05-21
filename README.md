@@ -3,13 +3,13 @@ A website to honour the late and great Norm Macdonald by spreading his words to 
 
 ## TODO
 - Setup svelte kit project
-- Figure out design in figma
+- ~~Figure out draft design in figma~~
 - Gather quotes into a json file
 - Implement design
 - Think about sms and email support
 - Thnk about external json api
-- Buy domain
-
+- Gallery for headline font in different languages
+- ~~Buy normmacdonaldquotes.com domain~~
 
 # create-svelte
 
