@@ -25,6 +25,7 @@
 
 <style>
 	section {
+		margin-top: 50px;
 		width: 100%;
 		display: flex;
 		flex-direction: row;

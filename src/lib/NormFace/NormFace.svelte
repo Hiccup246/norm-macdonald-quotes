@@ -12,14 +12,14 @@
 
 <style>
   .norm-face {
-		width: 218px;
-		height: 214px;
+		width: 268px;
+		height: 264px;
 		position: relative;
 	}
 
 	.norm-face-wrapper {
-		width: 200px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
 		position: relative;
 	}
 
