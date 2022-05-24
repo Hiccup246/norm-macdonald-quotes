@@ -26,21 +26,21 @@
 		box-sizing: border-box;
 	}
 
+	header {
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
 	}
 
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
+	footer p {
+		padding: 10px;
+		margin: 0 auto;
+		width: fit-content;
 	}
 </style>
