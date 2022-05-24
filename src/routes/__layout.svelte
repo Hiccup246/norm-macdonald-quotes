@@ -16,10 +16,12 @@
 
 <style>
 	main {
+		position: absolute;
+		top: 100px;
+		height: calc(100vh - 100px - 45px);
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
 		width: 100%;
 		max-width: 1024px;
 		margin: 0 auto;
