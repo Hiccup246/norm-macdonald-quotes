@@ -11,7 +11,7 @@
 		background-color: var(--secondary-color);
 		border-radius: 5px;
 		height: 250px;
-		width: 400px;
+		max-width: 400px;
 		padding: 20px;
 	}
 </style>

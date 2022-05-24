@@ -30,7 +30,6 @@
 		display: flex;
 		flex-direction: column;
 		max-width: 1300px;
-		box-sizing: border-box;
 		width: 100%;
 		padding: 0 16px;
 	}
@@ -38,13 +37,12 @@
 	header {
 		max-width: 1300px;
 		width: 100%;
-		padding: 0 16px;
 	}
 
 	footer {
 		background-color: var(--secondary-color);
 		width: 100%;
-		padding: 0 16px;
+		text-align: center;
 	}
 
 	footer p {

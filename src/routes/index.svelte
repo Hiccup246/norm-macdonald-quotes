@@ -13,11 +13,15 @@
 </svelte:head>
 
 <section>
-	<NormFace flipHorizontal={true} />
+	<div class="left-norm-face">
+		<NormFace flipHorizontal={true} />
+	</div>
 
 	<QuoteForm />
 
-	<NormFace />
+	<div class="right-norm-face">
+		<NormFace />
+	</div>
 </section>
 
 <style>
@@ -27,5 +31,37 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
+
+	@media (max-width: 990px) {
+		.left-norm-face {
+			display: none;
+		}
+
+		.right-norm-face {
+			margin: 40px 0;
+		}
+
+		section {
+			align-items: center;
+			flex-direction: column;
+		}
+	}
+
+ 	/* TODO Reintroduce if in need of separate mobile view */
+	/* @media (max-width: 425px) {
+		.left-norm-face {
+			display: none;
+		}
+
+		.right-norm-face {
+			margin: 40px 0;
+		}
+
+		section {
+			align-items: center;
+			flex-direction: column;
+		}
+	} */
 </style>
