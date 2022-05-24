@@ -8,7 +8,7 @@
 </script>
 
 <div class="quote-form">
-	<QuoteBox />
+	<QuoteBox quote="I always told everybody the perfect joke would be where the setup and punch line were identical" />
 
 	<div class="button-wrapper">
 		<QuoteButton />

@@ -1,9 +1,9 @@
 <script lang="ts">
-
+	export let quote = "";
 </script>
 
 <div class="quote-box">
-  <p>“I always told everybody the perfect joke would be where the setup and punch line were identical” - Norm Macdonald</p>
+  <p>“{quote}” - Norm Macdonald</p>
 </div>
 
 <style>
