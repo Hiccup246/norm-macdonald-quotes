@@ -2,7 +2,7 @@
 A website to honour the late and great Norm Macdonald by spreading his words to the world
 
 ## TODO
-- Implement figma design
+- ~~Implement figma design~~
 - Gather a small selection of quotes into a json file
 - Implement new quote functionality
 - Gather a massive list of quotes into a json file
