@@ -53,4 +53,10 @@
 		margin: 0 auto;
 		width: fit-content;
 	}
+
+	h1 {
+		font-style: italic;
+		font-weight: bold;
+		font-size: xxx-large;
+	}
 </style>
