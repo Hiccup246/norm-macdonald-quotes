@@ -2,7 +2,7 @@
 A website to honour the late and great Norm Macdonald by spreading his words to the world
 
 ## TODO
-- ~~Implement figma design~~
+- Implement proper seo
 - Gather a small selection of quotes into a json file
 - Implement new quote functionality
 - Gather a massive list of quotes into a json file
@@ -12,6 +12,7 @@ A website to honour the late and great Norm Macdonald by spreading his words to 
 - Think about supporting different languages from within the application
 - Think about sms and email support
 - Thnk about external json api
+- ~~Implement figma design~~
 - ~~Buy normmacdonaldquotes.com domain~~
 - ~~Setup svelte kit project~~
 - ~~Figure out draft design in figma~~
