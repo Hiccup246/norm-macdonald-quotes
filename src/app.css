@@ -22,16 +22,6 @@ body {
 	background-color: var(--primary-color);
 }
 
-body::before {
-	content: '';
-	width: 80vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 10vw;
-	z-index: -1;
-}
-
 #svelte {
 	min-height: 100vh;
 	display: flex;
