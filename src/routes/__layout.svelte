@@ -1,16 +1,17 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>
 
-<Header />
+<header>
+	<h1>Norm Macdonald</h1>
+</header>
 
 <main>
 	<slot />
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Made with lots of ❤️ for the man and his legacy</p>
 </footer>
 
 <style>
