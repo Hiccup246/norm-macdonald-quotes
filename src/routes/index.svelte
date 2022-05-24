@@ -13,7 +13,7 @@
 </svelte:head>
 
 <section>
-	<NormFace />
+	<NormFace flipHorizontal={true} />
 
 	<QuoteForm />
 

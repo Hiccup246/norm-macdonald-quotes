@@ -1,10 +1,11 @@
 <script lang="ts">
   import logo from './norm-face.webp';
+	export let flipHorizontal = false;
 </script>
 
 <div class="norm-face">
 	<div class="norm-face-wrapper">
-		<img src={logo} alt="Norm Face" class="norm-face-image" />
+		<img src={logo} style="transform: { flipHorizontal ? "scaleX(-1)" : "scaleX()" }" alt="Norm Face" class="norm-face-image" />
 		<div class="layer1"/>
 		<div class="layer2"/>
 	</div>
