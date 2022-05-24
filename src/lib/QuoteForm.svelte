@@ -5,13 +5,19 @@
 <script lang="ts">
 	import QuoteBox from '$lib/QuoteBox.svelte';
 	import QuoteButton from '$lib/QuoteButton.svelte';
+
+	let currentQuote = "I always told everybody the perfect joke would be where the setup and punch line were identical"
+
+	function handleClick () {
+		// Generate new random quote here
+	}
 </script>
 
 <div class="quote-form">
-	<QuoteBox quote="I always told everybody the perfect joke would be where the setup and punch line were identical" />
+	<QuoteBox quote={currentQuote} />
 
 	<div class="button-wrapper">
-		<QuoteButton />
+		<QuoteButton clickFunction={handleClick}/>
 	</div>
 </div>
 
