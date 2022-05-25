@@ -10,6 +10,9 @@
 <svelte:head>
 	<title>Norm Macdonald Quotes</title>
 	<meta name="description" content="Norm Macdonald Quotes" />
+	<meta name="keywords" content="Norm Macdonald, Norm Macdonald Quotes, Norm Quotes, Norm Macdonald SNL, Norm Standup Comedy, Comedy">
+  <meta name="author" content="James Watt">
+	<link rel="canonical" href="https://normmacdonaldquotes.com/">
 </svelte:head>
 
 <section>
