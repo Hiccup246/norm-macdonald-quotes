@@ -3,8 +3,6 @@ A website to honour the late and great Norm Macdonald by spreading his words to 
 
 ## TODO
 - Implement proper seo
-- Gather a small selection of quotes into a json file
-- Implement new quote functionality
 - Gather a massive list of quotes into a json file
 - Deploy the project
 - Implement the whole "as mouse moves the squares behind the image move a bit
@@ -12,6 +10,8 @@ A website to honour the late and great Norm Macdonald by spreading his words to 
 - Think about supporting different languages from within the application
 - Think about sms and email support
 - Thnk about external json api
+- ~~Gather a small selection of quotes into a json file~~
+- ~~Implement new quote functionality~~
 - ~~Implement figma design~~
 - ~~Buy normmacdonaldquotes.com domain~~
 - ~~Setup svelte kit project~~
