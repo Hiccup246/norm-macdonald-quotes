@@ -13,7 +13,12 @@ export async function get() {
         xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
       >
-        <!-- <url> elements go here -->
+        <url>
+          <loc>https://www.normmacdonaldquotes.com/</loc>
+          <changefreq>yearly</changefreq>
+          <priority>1.0</priority>
+          <lastmod>2022-05-25</lastmod>
+        </url>
       </urlset>
     `.trim()
 	};
