@@ -2,14 +2,15 @@
 A website to honour the late and great Norm Macdonald by spreading his words to the world
 
 ## TODO
-- Implement proper seo
-- Gather a massive list of quotes into a json file
-- Deploy the project
 - Implement the whole "as mouse moves the squares behind the image move a bit
+- Deploy the project
+- Gather a massive list of quotes into a json file
 - Gallery for headline font in different languages
 - Think about supporting different languages from within the application
 - Think about sms and email support
 - Thnk about external json api
+- Think about further SEO optimisations
+- ~~Implement proper seo~~
 - ~~Gather a small selection of quotes into a json file~~
 - ~~Implement new quote functionality~~
 - ~~Implement figma design~~
