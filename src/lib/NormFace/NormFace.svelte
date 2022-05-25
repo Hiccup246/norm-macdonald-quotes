@@ -1,13 +1,31 @@
 <script lang="ts">
-  import logo from './norm-face.webp';
+  import normImage from './norm-face.webp';
+	import normImageFlipped from './norm-face-flipped.webp';
 	export let flipHorizontal = false;
+	let normFace:Element;
+	let layerOne:Element;
+	let layerTwo:Element;
+
+	function parallax(event: MouseEvent) {
+		[normFace, layerOne, layerTwo].forEach((element) => {
+			const speed = 1
+			const x = (window.innerWidth - event.pageX * speed) / 90;
+			const y = (window.innerHeight - event.pageY * speed) / 90;
+
+			element.style.transform = `translateX(${x}px) translateY(${y}px)`;
+		});
+	}
+
+	$: normFaceSrc = flipHorizontal ? normImageFlipped : normImage;
 </script>
+
+<svelte:window on:mousemove={parallax}/>
 
 <div class="norm-face">
 	<div class="norm-face-wrapper">
-		<img src={logo} style="transform: { flipHorizontal ? "scaleX(-1)" : "scaleX()" }" alt="Norm Face" class="norm-face-image" />
-		<div class="layer1"/>
-		<div class="layer2"/>
+		<img bind:this={normFace} src={normFaceSrc} alt="Norm Face" class="norm-face-image" />
+		<div bind:this={layerOne} class="layer1"/>
+		<div bind:this={layerTwo} class="layer2"/>
 	</div>
 </div>
 
@@ -39,6 +57,7 @@
 		height: inherit;
 		width: inherit;
 		z-index: 4;
+		transition: all 0.1s;
 	}
 
 	.layer2 {
@@ -49,5 +68,6 @@
 		height: inherit;
 		width: inherit;
 		z-index: 3;
+		transition: all 0.3s;
 	}
 </style>
