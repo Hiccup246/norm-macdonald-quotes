@@ -4,6 +4,9 @@ A website to honour the late and great Norm Macdonald by spreading his words to 
 ## TODO
 - Cleanup the codebase i.e. remove redundant boiler plate
 - Gather a massive list of quotes into a json file
+  - Quote Sources:
+    - https://www.brainyquote.com/authors/norm-macdonald-quotes
+    - https://www.indy100.com/celebrities/norm-macdonald-best-quotes-jokes-b1920204
 - Deploy the project
 - Gallery for headline font in different languages
 - Think about supporting different languages from within the application

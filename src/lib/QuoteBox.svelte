@@ -3,7 +3,7 @@
 </script>
 
 <div class="quote-box">
-  <p>“{quote}” - Norm Macdonald</p>
+  <p>“{quote}”</p>
 </div>
 
 <style>
@@ -13,5 +13,7 @@
 		height: 250px;
 		max-width: 400px;
 		padding: 20px;
+		word-wrap: break-word;
+		overflow-x: scroll;
 	}
 </style>
