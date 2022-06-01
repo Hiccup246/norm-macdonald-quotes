@@ -9,7 +9,7 @@
 	let currentQuote = "I always told everybody the perfect joke would be where the setup and punch line were identical"
 
 	async function handleClick () {
-    const res = await fetch('/quotes');
+    const res = await fetch('/quote');
 		const data = await res.json()
 
 		if (res.ok) {
