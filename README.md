@@ -1,6 +1,6 @@
 # 🎤 [Norm Macdonald Quotes](https://www.normmacdonaldquotes.com/)
 ![](https://img.shields.io/github/license/Hiccup246/norm-macdonald-quotes)
-![](https://img.shields.io/github/issues/Hiccup246/norm-macdonald-quotes)
+![](https://img.shields.io/github/languages/code-size/Hiccup246/norm-macdonald-quotes)
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=norm-macdonald-quotes)
 
 A website to honor the late and great Norm Macdonald by spreading his words to the world.
