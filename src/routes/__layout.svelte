@@ -12,7 +12,11 @@
 	</main>
 
 	<footer>
-		<p>Made with lots of ❤️ for the man and his legacy</p>
+		<p>
+			<james-watt-calling-card modal-bg-color="var(--primary-color)">
+				Made
+			</james-watt-calling-card> with lots of ❤️ for the man and his legacy
+		</p>
 	</footer>
 </div>
 
@@ -55,5 +59,9 @@
 		font-style: italic;
 		font-weight: bold;
 		font-size: xxx-large;
+	}
+
+	james-watt-calling-card:hover {
+		text-decoration: underline;
 	}
 </style>
