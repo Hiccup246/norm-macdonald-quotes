@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	const PUBLIC_UMAMI_WEBSITE_ID = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
-	const PUBLIC_UMAMI_WEBSITE_URL = import.meta.env.PUBLIC_UMAMI_WEBSITE_URL;
+	import { VITE_UMAMI_WEBSITE_ID, VITE_UMAMI_WEBSITE_URL } from '$lib/Env.js';
 </script>
 
 <svelte:head>
@@ -9,8 +8,8 @@
 	<script 
 		async
 		defer
-		data-website-id="{PUBLIC_UMAMI_WEBSITE_ID}"
-		src="{PUBLIC_UMAMI_WEBSITE_URL}">
+		data-website-id="{VITE_UMAMI_WEBSITE_ID}"
+		src="{VITE_UMAMI_WEBSITE_URL}">
 	</script>
 </svelte:head>
 

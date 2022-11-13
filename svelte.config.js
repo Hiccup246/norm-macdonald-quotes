@@ -8,12 +8,13 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
-	},
-	env: {
-		dir: process.cwd(),
-		publicPrefix: 'PUBLIC_'
-	},
+		adapter: adapter(),
+		vite: {
+			define: {
+				'process.env': process.env,
+			},
+		}
+	}
 };
 
 export default config;
