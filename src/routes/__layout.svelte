@@ -7,8 +7,8 @@
 	<script 
 		async 
 		defer 
-		data-website-id="{import.meta.env.UMAMI_WEBSITE_ID}"
-		src="{import.meta.env.UMAMI_WEBSITE_URL}">
+		data-website-id="{import.meta.env.PUBLIC_UMAMI_WEBSITE_ID}"
+		src="{import.meta.env.PUBLIC_UMAMI_WEBSITE_URL}">
 	</script>
 </svelte:head>
 
