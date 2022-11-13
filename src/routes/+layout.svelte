@@ -1,6 +1,7 @@
-<script lang="ts">
-	import '../app.css';
-	import { VITE_UMAMI_WEBSITE_ID, VITE_UMAMI_WEBSITE_URL } from '$lib/Env.js';
+<script>
+	export const prerender = true;
+	import "../app.css";
+	import { PUBLIC_UMAMI_WEBSITE_ID, PUBLIC_UMAMI_WEBSITE_URL } from '$env/static/public';
 </script>
 
 <svelte:head>
@@ -8,8 +9,8 @@
 	<script 
 		async
 		defer
-		data-website-id="{VITE_UMAMI_WEBSITE_ID}"
-		src="{VITE_UMAMI_WEBSITE_URL}">
+		data-website-id="{PUBLIC_UMAMI_WEBSITE_ID}"
+		src="{PUBLIC_UMAMI_WEBSITE_URL}">
 	</script>
 </svelte:head>
 

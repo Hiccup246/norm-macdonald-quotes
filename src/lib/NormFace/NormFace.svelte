@@ -1,17 +1,17 @@
 <script lang="ts">
-  import normImage from './norm-face.webp';
-	import normImageFlipped from './norm-face-flipped.webp';
+  	import normImage from '$lib/assets/norm-face.webp';
+	import normImageFlipped from '$lib/assets/norm-face-flipped.webp';
 	export let flipHorizontal = false;
-	let normFace:Element;
-	let layerOne:Element;
-	let layerTwo:Element;
+	let normFace:HTMLElement;
+	let layerOne:HTMLElement;
+	let layerTwo:HTMLElement;
 
 	function parallax(event: MouseEvent) {
-		[normFace, layerOne, layerTwo].forEach((element) => {
+		[normFace, layerOne, layerTwo].forEach((element: HTMLElement) => {
 			const speed = 1
 			const x = (window.innerWidth - event.pageX * speed) / 90;
 			const y = (window.innerHeight - event.pageY * speed) / 90;
-
+			
 			element.style.transform = `translateX(${x}px) translateY(${y}px)`;
 		});
 	}

@@ -1,18 +1,18 @@
+import { error } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
+import { json } from '@sveltejs/kit';
 import quotes from '$lib/data/quotes.json';
 
-export async function get() {
+export const GET: RequestHandler = () => {
 	const min = Math.ceil(0);
 	const max = Math.floor(quotes.length - 1);
 	const randomQuoteIndex = Math.floor(Math.random() * (max - min + 1)) + min;
 	const quote = quotes[randomQuoteIndex];
 
 	if (quote) {
-		return {
-			body: { quote: quote }
-		};
+		return json({ quote });
 	}
 
-	return {
-		status: 500
-	};
+	throw error(500, 'Internal Server Error');
 }
+

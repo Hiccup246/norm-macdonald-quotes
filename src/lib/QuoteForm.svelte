@@ -1,8 +1,4 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
-<script lang="ts">
+<script>
 	import QuoteBox from '$lib/QuoteBox.svelte';
 	import QuoteButton from '$lib/QuoteButton.svelte';
 

@@ -1,8 +1,4 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
-<script lang="ts">
+<script>
 	import QuoteForm from '$lib/QuoteForm.svelte';
 	import NormFace from '$lib/NormFace/NormFace.svelte';
 </script>
@@ -11,7 +7,7 @@
 	<title>Norm Macdonald Quotes</title>
 	<meta name="description" content="Norm Macdonald Quotes" />
 	<meta name="keywords" content="Norm Macdonald, Norm Macdonald Quotes, Norm Quotes, Norm Macdonald SNL, Norm Standup Comedy, Comedy">
-  <meta name="author" content="James Watt">
+  	<meta name="author" content="James Watt">
 	<link rel="canonical" href="https://www.normmacdonaldquotes.com/">
 </svelte:head>
 

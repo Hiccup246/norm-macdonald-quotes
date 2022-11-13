@@ -1,5 +1,5 @@
 <script lang="ts">
- export let clickFunction:Function;
+  export let clickFunction:Function;
 </script>
 
 <button class="quote-button" on:click={() => clickFunction()}>

@@ -1,10 +1,9 @@
-@import '@fontsource/fira-mono';
 @font-face {
 	font-family: 'Azeret Mono';
 	font-style: normal;
 	font-weight: 300;
 	font-display: swap;
-	src: url("./fonts/AzeretMono-Light.woff") format("woff");
+	src: url("$lib/assets/fonts/AzeretMono-Light.woff") format("woff");
 }
 
 :root {
