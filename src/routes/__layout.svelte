@@ -2,6 +2,16 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<!-- Umami Analytics Tracking Tags -->
+	<script 
+		async 
+		defer 
+		data-website-id="{import.meta.env.UMAMI_WEBSITE_ID}"
+		src="{import.meta.env.UMAMI_WEBSITE_URL}">
+	</script>
+</svelte:head>
+
 <div class="app">
 	<header>
 		<h1>Norm Macdonald</h1>
