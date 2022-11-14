@@ -1,6 +1,6 @@
 <script>
 	export const prerender = true;
-	import '../app.css';
+	import './styles.css';
 	import { PUBLIC_UMAMI_WEBSITE_ID, PUBLIC_UMAMI_WEBSITE_URL } from '$env/static/public';
 </script>
 
