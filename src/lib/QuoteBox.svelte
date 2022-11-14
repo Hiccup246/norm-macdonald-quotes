@@ -1,9 +1,9 @@
 <script>
-	export let quote = "";
+	export let quote = '';
 </script>
 
 <div class="quote-box">
-  <p>“{quote}”</p>
+	<p>“{quote}”</p>
 </div>
 
 <style>

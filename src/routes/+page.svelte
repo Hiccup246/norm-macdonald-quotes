@@ -6,9 +6,12 @@
 <svelte:head>
 	<title>Norm Macdonald Quotes</title>
 	<meta name="description" content="Norm Macdonald Quotes" />
-	<meta name="keywords" content="Norm Macdonald, Norm Macdonald Quotes, Norm Quotes, Norm Macdonald SNL, Norm Standup Comedy, Comedy">
-  	<meta name="author" content="James Watt">
-	<link rel="canonical" href="https://www.normmacdonaldquotes.com/">
+	<meta
+		name="keywords"
+		content="Norm Macdonald, Norm Macdonald Quotes, Norm Quotes, Norm Macdonald SNL, Norm Standup Comedy, Comedy"
+	/>
+	<meta name="author" content="James Watt" />
+	<link rel="canonical" href="https://www.normmacdonaldquotes.com/" />
 </svelte:head>
 
 <section>
@@ -48,7 +51,7 @@
 		}
 	}
 
- 	/* TODO Reintroduce if in need of separate mobile view */
+	/* TODO Reintroduce if in need of separate mobile view */
 	/* @media (max-width: 425px) {
 		.left-norm-face {
 			display: none;

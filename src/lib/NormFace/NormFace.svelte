@@ -1,17 +1,17 @@
 <script lang="ts">
-  	import normImage from '$lib/assets/norm-face.webp';
+	import normImage from '$lib/assets/norm-face.webp';
 	import normImageFlipped from '$lib/assets/norm-face-flipped.webp';
 	export let flipHorizontal = false;
-	let normFace:HTMLElement;
-	let layerOne:HTMLElement;
-	let layerTwo:HTMLElement;
+	let normFace: HTMLElement;
+	let layerOne: HTMLElement;
+	let layerTwo: HTMLElement;
 
 	function parallax(event: MouseEvent) {
 		[normFace, layerOne, layerTwo].forEach((element: HTMLElement) => {
-			const speed = 1
+			const speed = 1;
 			const x = (window.innerWidth - event.pageX * speed) / 90;
 			const y = (window.innerHeight - event.pageY * speed) / 90;
-			
+
 			element.style.transform = `translateX(${x}px) translateY(${y}px)`;
 		});
 	}
@@ -19,18 +19,18 @@
 	$: normFaceSrc = flipHorizontal ? normImageFlipped : normImage;
 </script>
 
-<svelte:window on:mousemove={parallax}/>
+<svelte:window on:mousemove={parallax} />
 
 <div class="norm-face">
 	<div class="norm-face-wrapper">
 		<img bind:this={normFace} src={normFaceSrc} alt="Norm Face" class="norm-face-image" />
-		<div bind:this={layerOne} class="layer1"/>
-		<div bind:this={layerTwo} class="layer2"/>
+		<div bind:this={layerOne} class="layer1" />
+		<div bind:this={layerTwo} class="layer2" />
 	</div>
 </div>
 
 <style>
-  .norm-face {
+	.norm-face {
 		width: 268px;
 		height: 264px;
 		position: relative;
@@ -50,7 +50,7 @@
 	}
 
 	.layer1 {
-		background-color: #DF80FF;
+		background-color: #df80ff;
 		position: absolute;
 		top: 7px;
 		left: 9px;
@@ -61,7 +61,7 @@
 	}
 
 	.layer2 {
-		background-color: #00CDCD;
+		background-color: #00cdcd;
 		position: absolute;
 		top: 14px;
 		left: 18px;

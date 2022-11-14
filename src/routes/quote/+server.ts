@@ -14,5 +14,4 @@ export const GET: RequestHandler = () => {
 	}
 
 	throw error(500, 'Internal Server Error');
-}
-
+};
