@@ -1,6 +1,6 @@
 <script lang="ts">
-	import normImage from '$lib/assets/norm-face.webp';
-	import normImageFlipped from '$lib/assets/norm-face-flipped.webp';
+	import normImage from "$lib/assets/norm-face.webp";
+	import normImageFlipped from "$lib/assets/norm-face-flipped.webp";
 	export let flipHorizontal = false;
 	let normFace: HTMLElement;
 	let layerOne: HTMLElement;

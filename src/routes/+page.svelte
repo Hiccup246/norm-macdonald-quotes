@@ -1,7 +1,7 @@
 <script>
-	import QuoteForm from '$lib/QuoteForm.svelte';
-	import NormFace from '$lib/NormFace/NormFace.svelte';
-	import NormFaceImage from '$lib/assets/norm-face.webp';
+	import QuoteForm from "$lib/QuoteForm.svelte";
+	import NormFace from "$lib/NormFace/NormFace.svelte";
+	import NormFaceImage from "$lib/assets/norm-face.webp";
 </script>
 
 <svelte:head>
