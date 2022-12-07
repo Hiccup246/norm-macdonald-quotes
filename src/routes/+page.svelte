@@ -21,6 +21,7 @@
 	<meta name="twitter:image" content={NormSocials} />
 	<meta name="twitter:image:alt" content="A picture of Norm Macdonald Laughing" />
 	<meta name="twitter:title" content="Norm Macdonald Quote Generator" />
+	<meta name="twitter:creator" content="@jameswattnz">
 </svelte:head>
 
 <section>
