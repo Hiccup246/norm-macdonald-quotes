@@ -10,7 +10,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={NormSocials} />
 	<meta property="og:url" content="https://www.normmacdonaldquotes.com" />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 
 	<!-- Non-Essential, But Recommended -->
 	<meta
