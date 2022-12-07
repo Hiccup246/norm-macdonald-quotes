@@ -1,14 +1,14 @@
 <script>
 	import QuoteForm from "$lib/QuoteForm.svelte";
 	import NormFace from "$lib/NormFace/NormFace.svelte";
-	import NormFaceImage from "$lib/assets/norm-face.webp";
+	import NormSocials from "$lib/assets/norm-photo-socials.webp";
 </script>
 
 <svelte:head>
 	<!-- Essential META Tags -->
-	<meta property="og:title" content="Norm Macdonald Quotes" />
+	<meta property="og:title" content="Norm Macdonald Quote Generator" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content={NormFaceImage} />
+	<meta property="og:image" content={NormSocials} />
 	<meta property="og:url" content="https://www.normmacdonaldquotes.com" />
 	<meta name="twitter:card" content="summary" />
 
@@ -18,7 +18,7 @@
 		content="Norm Macdonald Quote Generator"
 	/>
 	<meta property="og:site_name" content="Norm Macdonald Quotes" />
-	<meta name="twitter:image" content={NormFaceImage} />
+	<meta name="twitter:image" content={NormSocials} />
 	<meta name="twitter:image:alt" content="A picture of Norm Macdonald Laughing" />
 	<meta name="twitter:title" content="Norm Macdonald Quote Generator" />
 </svelte:head>
