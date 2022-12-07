@@ -10,7 +10,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={NormFaceImage} />
 	<meta property="og:url" content="https://www.normmacdonaldquotes.com" />
-	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:card" content="summary" />
 
 	<!-- Non-Essential, But Recommended -->
 	<meta
@@ -18,10 +18,9 @@
 		content="Norm Macdonald Quote Generator"
 	/>
 	<meta property="og:site_name" content="Norm Macdonald Quotes" />
-	<meta name="twitter:image:alt" content="%sveltekit.assets%/norm-face.webp" />
-
-	<!-- Non-Essential, But Required for Analytics -->
-	<meta name="twitter:site" content="@jameswattnz" />
+	<meta name="twitter:image" content={NormFaceImage} />
+	<meta name="twitter:image:alt" content="A picture of Norm Macdonald Laughing" />
+	<meta name="twitter:title" content="Norm Macdonald Quote Generator" />
 </svelte:head>
 
 <section>
