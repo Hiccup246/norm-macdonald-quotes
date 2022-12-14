@@ -5,23 +5,25 @@
 </script>
 
 <svelte:head>
-	<!-- Essential META Tags -->
+	<!-- Open Graph META Tags -->
 	<meta property="og:title" content="Norm Macdonald Quote Generator" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content={NormSocials} />
-	<meta property="og:url" content="https://www.normmacdonaldquotes.com" />
-	<meta name="twitter:card" content="summary_large_image" />
-
-	<!-- Non-Essential, But Recommended -->
 	<meta
 		property="og:description"
 		content="Norm Macdonald Quote Generator"
 	/>
 	<meta property="og:site_name" content="Norm Macdonald Quotes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content={NormSocials} />
+	<meta property="og:url" content="https://www.normmacdonaldquotes.com" />
+
+	<!-- Twitter META Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content={NormSocials} />
 	<meta name="twitter:image:alt" content="A picture of Norm Macdonald performing stand-up comedy" />
 	<meta name="twitter:title" content="Norm Macdonald Quote Generator" />
 	<meta name="twitter:creator" content="@jameswattnz">
+	<meta name="twitter:site" content="@jameswattnz">
+	<meta name="twitter:description" content="Norm Macdonald Quote Generator">
 </svelte:head>
 
 <section>
