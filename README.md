@@ -6,7 +6,7 @@
 
 A website to honor the late and great Norm Macdonald by spreading his words to the world.
 
-![](https://i.imgur.com/eaJoxo3.png)
+![Site Screenshot](https://raw.githubusercontent.com/Hiccup246/norm-macdonald-quotes/main/src/lib/assets/site-screenshot.webp)
 
 <br>
 
@@ -31,7 +31,7 @@ As the key components are relatively simple their descriptions are shown below:
 - `src/lib/QuoteButton.svelete` - This component is a simple button which takes a function as a prop which is then called when the button is clicked
 - `src/lib/QuoteForm.svelete` - This component composes both the `QuoteButton` and `QuoteBox` along with a function call to a Quote API to generate Norm Quotes and render them to the screen. The composition of these elements is described visually below:
 
-  ![](https://i.imgur.com/mGObQeJ.png)
+![Site Diagram](https://raw.githubusercontent.com/Hiccup246/norm-macdonald-quotes/main/src/lib/assets/site-diagram.webp)
 
 <br>
 
