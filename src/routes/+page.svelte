@@ -1,16 +1,13 @@
 <script>
-	import QuoteForm from "$lib/QuoteForm.svelte";
-	import NormFace from "$lib/NormFace/NormFace.svelte";
-	import NormSocials from "$lib/assets/norm-photo-socials.webp";
+	import QuoteForm from '$lib/QuoteForm.svelte';
+	import NormFace from '$lib/NormFace/NormFace.svelte';
+	import NormSocials from '$lib/assets/norm-photo-socials.webp';
 </script>
 
 <svelte:head>
 	<!-- Open Graph META Tags -->
 	<meta property="og:title" content="Norm Macdonald Quote Generator" />
-	<meta
-		property="og:description"
-		content="Norm Macdonald Quote Generator"
-	/>
+	<meta property="og:description" content="Norm Macdonald Quote Generator" />
 	<meta property="og:site_name" content="Norm Macdonald Quotes" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={NormSocials} />
@@ -21,9 +18,9 @@
 	<meta name="twitter:image" content={NormSocials} />
 	<meta name="twitter:image:alt" content="A picture of Norm Macdonald performing stand-up comedy" />
 	<meta name="twitter:title" content="Norm Macdonald Quote Generator" />
-	<meta name="twitter:creator" content="@jameswattnz">
-	<meta name="twitter:site" content="@jameswattnz">
-	<meta name="twitter:description" content="Norm Macdonald Quote Generator">
+	<meta name="twitter:creator" content="@jameswattnz" />
+	<meta name="twitter:site" content="@jameswattnz" />
+	<meta name="twitter:description" content="Norm Macdonald Quote Generator" />
 </svelte:head>
 
 <section>

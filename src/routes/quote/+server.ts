@@ -1,7 +1,7 @@
-import { error } from "@sveltejs/kit";
-import type { RequestHandler } from "./$types";
-import { json } from "@sveltejs/kit";
-import quotes from "$lib/data/quotes.json";
+import { error } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
+import { json } from '@sveltejs/kit';
+import quotes from '$lib/data/quotes.json';
 
 export const GET: RequestHandler = () => {
 	const min = Math.ceil(0);
@@ -13,5 +13,5 @@ export const GET: RequestHandler = () => {
 		return json({ quote });
 	}
 
-	throw error(500, "Internal Server Error");
+	throw error(500, 'Internal Server Error');
 };
