@@ -3,7 +3,7 @@
 </script>
 
 <button class="quote-button" on:click={() => clickFunction()}>
-	<p>Quote Me</p>
+	<div>Quote Me</div>
 </button>
 
 <style>

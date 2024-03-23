@@ -23,7 +23,7 @@
 	<meta name="twitter:description" content="Norm Macdonald Quote Generator" />
 </svelte:head>
 
-<section>
+<div class="content">
 	<div class="left-norm-face">
 		<NormFace flipHorizontal={true} />
 	</div>
@@ -33,10 +33,10 @@
 	<div class="right-norm-face">
 		<NormFace />
 	</div>
-</section>
+</div>
 
 <style>
-	section {
+	.content {
 		margin-top: 50px;
 		width: 100%;
 		display: flex;
@@ -54,7 +54,7 @@
 			margin: 40px 0;
 		}
 
-		section {
+		.content {
 			align-items: center;
 			flex-direction: column;
 		}
