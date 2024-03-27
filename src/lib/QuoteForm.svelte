@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import QuoteBox from '$lib/QuoteBox.svelte';
 	import QuoteButton from '$lib/QuoteButton.svelte';
 

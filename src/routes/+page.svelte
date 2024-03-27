@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import QuoteForm from '$lib/QuoteForm.svelte';
 	import NormFace from '$lib/NormFace.svelte';
 	import NormSocials from '$lib/assets/norm-photo-socials.webp';
