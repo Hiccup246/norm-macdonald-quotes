@@ -1,7 +1,6 @@
 <script lang="ts">
 	import QuoteForm from '$lib/QuoteForm.svelte';
 	import NormFace from '$lib/NormFace.svelte';
-	import NormSocials from '$lib/assets/norm-photo-socials.webp';
 </script>
 
 <svelte:head>
@@ -10,12 +9,15 @@
 	<meta property="og:description" content="Norm Macdonald Quote Generator" />
 	<meta property="og:site_name" content="Norm Macdonald Quotes" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content={NormSocials} />
+	<meta property="og:image" content="https://www.normmacdonaldquotes.com/norm-photo-socials.webp" />
 	<meta property="og:url" content="https://www.normmacdonaldquotes.com" />
 
 	<!-- Twitter META Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image" content={NormSocials} />
+	<meta
+		name="twitter:image"
+		content="https://www.normmacdonaldquotes.com/norm-photo-socials.webp"
+	/>
 	<meta name="twitter:image:alt" content="A picture of Norm Macdonald performing stand-up comedy" />
 	<meta name="twitter:title" content="Norm Macdonald Quote Generator" />
 	<meta name="twitter:creator" content="@jameswattnz" />
