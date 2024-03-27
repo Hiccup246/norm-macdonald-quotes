@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -22,9 +22,11 @@
 
 		<!-- James Watt Calling Card Web Component -->
 		<script type="module" src="https://unpkg.com/james-watt-calling-card/index.js"></script>
+
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-prefetch>
-		%sveltekit.body%
+	<!-- <body data-sveltekit-prefetch></body> -->
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
