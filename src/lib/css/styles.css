@@ -7,8 +7,18 @@
 }
 
 :root {
-	font-family: 'Azeret Mono', 'Open Sans', Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+	font-family:
+		'Azeret Mono',
+		'Open Sans',
+		Roboto,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		'Helvetica Neue',
+		sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
 	--primary-color: #e8f4f8;

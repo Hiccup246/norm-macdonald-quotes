@@ -2,9 +2,7 @@
 	export let clickFunction: Function;
 </script>
 
-<button class="quote-button" on:click={() => clickFunction()}>
-	Quote Me
-</button>
+<button class="quote-button" on:click={() => clickFunction()}> Quote Me </button>
 
 <style>
 	.quote-button {

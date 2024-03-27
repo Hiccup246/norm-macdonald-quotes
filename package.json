@@ -1,6 +1,6 @@
 {
 	"name": "norm-macdonald-quotes",
-  "version": "1.0.0",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -31,12 +31,12 @@
 	},
 	"type": "module",
 	"repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Hiccup246/norm-macdonald-quotes.git"
-  },
-  "author": "James Watt",
-  "bugs": {
-    "url": "https://github.com/Hiccup246/norm-macdonald-quotes/issues"
-  },
-  "homepage": "https://github.com/Hiccup246/norm-macdonald-quotes#readme"
+		"type": "git",
+		"url": "git+ssh://git@github.com/Hiccup246/norm-macdonald-quotes.git"
+	},
+	"author": "James Watt",
+	"bugs": {
+		"url": "https://github.com/Hiccup246/norm-macdonald-quotes/issues"
+	},
+	"homepage": "https://github.com/Hiccup246/norm-macdonald-quotes#readme"
 }
