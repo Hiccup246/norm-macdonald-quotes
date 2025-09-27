@@ -24,8 +24,8 @@
 <div class="norm-face">
 	<div class="norm-face-wrapper">
 		<img bind:this={normFace} src={normFaceSrc} alt="Norm Face" class="norm-face-image" />
-		<div bind:this={layerOne} class="layer1" />
-		<div bind:this={layerTwo} class="layer2" />
+		<div bind:this={layerOne} class="layer1"></div>
+		<div bind:this={layerTwo} class="layer2"></div>
 	</div>
 </div>
 
